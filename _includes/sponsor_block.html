@@ -1,13 +1,19 @@
-{% if include.entity.type == 'sponsor' %}
-{% assign image_height = "125" %}
+{% if include.entity.image_height %}
+    {% assign image_height = include.entity.image_height %}
 {% else %}
-{% assign image_height = "75" %}
+    {% assign image_height = "125" %}
 {% endif %}
+
 <a href="{{ include.entity.url }}" class="sponsor-logo {{ include.entity.type }}">
 
-{% if include.entity.image_path %}
-<img src="{{ include.entity.image_path }}" height="{{ image_height }}" />
-{% else %}
-{{ include.entity.name }}
-{% endif %}
+    {% if include.entity.image_path %}
+        <img src="{{ include.entity.image_path }}" height="{{ image_height }}"
+         {% if include.entity.custom_styles %}
+            style="{{ include.entity.custom_styles }}"
+         {% endif %}
+        />
+    {% else %}
+        {{ include.entity.name }}
+    {% endif %}
+
 </a>
