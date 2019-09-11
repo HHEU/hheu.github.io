@@ -4,4 +4,5 @@
 
 layout: default
 ---
-Lorem ipsum...
+# Coming Soon
+Stay tuned for more info!
