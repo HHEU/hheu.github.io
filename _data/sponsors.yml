@@ -1,14 +1,17 @@
 - name: Interhacktive
   image_path: assets/images/interhacktive.jpg
+  image_height: 125
   url: https://twitter.com/interhacktiveco
   type: sponsor
 
 - name: HackNotts
   image_path: assets/images/hacknotts.png
+  image_height: 50
   url: https://hacknotts.com
   type: partner
 
 - name: DurHack
   image_path: assets/images/durhack.svg
+  image_height: 100
   url: https://durhack.com
   type: partner
