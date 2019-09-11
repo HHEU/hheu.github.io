@@ -24,7 +24,7 @@ so we three community builders decided to form our own meet-ups.
 </div>
 {% endfor %}
 
-## Is this an MLH event?
+## Is this a Major League Hacking (MLH) event?
 Technically, no. This event is split into two parts:
 
 ### Unconference
