@@ -9,6 +9,8 @@
   image_height: 50
   url: https://hacknotts.com
   type: partner
+  custom_styles: >-
+    margin-top: -10px;
 
 - name: DurHack
   image_path: assets/images/durhack.svg
