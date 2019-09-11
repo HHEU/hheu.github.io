@@ -1,4 +1,15 @@
+$blue: rgb(7, 50, 134);
+$yellow: rgb(251, 202, 51);
+$green: #159957;
+$cream: #f9f8f3;
+
+body {
+  background-color: $cream;
+}
+
 .page-header {
+  background-image: linear-gradient(120deg, $blue, $green);
+
   h1 {
     margin-top: 0;
     margin-bottom: 0.1rem;
@@ -90,6 +101,12 @@
 
 .main-content h1 {
   font-weight: bold;
+}
+
+.main-content {
+  h1, h2, h3, h4, h5, h6 {
+    color: $blue;
+  }
 }
 
 .sponsors {
