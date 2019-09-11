@@ -66,3 +66,6 @@ We are proudly supported by:
 {% endfor %}
 </div>
 </div>
+
+# Contact
+Got another question? Reach out to us on [hello@hackathonhackers.eu](mailto:hello@hackathonhackers.eu)!
