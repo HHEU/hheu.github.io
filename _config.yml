@@ -24,7 +24,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #github_username:  jekyll
 
 ## Custom options
-ticket_link: https://ti.to/hheu/uk-unconference-hackcon-digital-watch-party/with/t2wxzcmaubc
+ticket_link: https://tickets.hackathonhackers.eu
 
 # Build settings
 markdown: kramdown
