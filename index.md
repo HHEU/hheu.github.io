@@ -25,15 +25,22 @@ so we three community builders decided to form our own meet-ups.
 {% endfor %}
 
 ## Is this an MLH event?
-No. This event is independent of any event or company. Aaron, Robbie and Joe wanted to host meet-ups for UK organisers,
-and growing Hackathon Hackers Europe is a great way to do that.
+Technically, no. This event is split into two parts:
 
-Behind the scenes, this event leverages [HackNotts](https://www.hacknotts.com/)' and [DurHack](https://durhack.com)'s
-resources.
+### Unconference
+Independent of any event or company, Aaron, Robbie and Joe wanted to host meet-ups for UK organisers. The unconference
+takes place in the morning and will consist of discussion groups and networking.
+
+### Hackcon Digital
+We'll be hosting a watch party for [Hackcon Digital](https://hackcon.mlh.io/events/hackcon-digital/) in the afternoon.
+Hackcon Digital is an MLH-run online conference.
 
 ## Why is this event free?
 This unconference is an opportunity to meet up with other UK and European hackathon organisers. We'll provide food and
 host casual discussion groups, and we believe this event should be as accessible as possible to hackathon organisers.
+
+<small>Behind the scenes, this event leverages [HackNotts](https://www.hacknotts.com/)' and
+[DurHack](https://durhack.com)'s resources. This event is funded by sponsors.</small>
 
 ## Do you cover travel reimbursements?
 We are planning to offer travel reimbursements to participants who are coming from outside Nottingham. We're still
