@@ -1,5 +1,5 @@
 - name: Interhacktive
-  #image_path: assets/images/interhacktive.png # Commented out until we get an Interhacktive logo
+  image_path: assets/images/interhacktive.jpg
   url: https://twitter.com/interhacktiveco
   type: sponsor
 
