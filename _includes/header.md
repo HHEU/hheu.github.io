@@ -2,5 +2,5 @@
 <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
 {% if site.ticket_link %}
-    <a href="{{ site.ticket_link }}" class="btn">Sign up now</a>
+    <a href="{{ site.ticket_link }}" class="btn">Get tickets now</a>
 {% endif %}
