@@ -64,3 +64,14 @@
     background-color: rgba(255,255,255, 0.30);
   }
 }
+
+.meet-the-team {
+  display: flex;
+  $imageMargin: 40px;
+  margin-top: $imageMargin;
+
+  .meet-the-team-image {
+    border-radius: 100%;
+    margin-right: $imageMargin;
+  }
+}
