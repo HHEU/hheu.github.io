@@ -33,4 +33,34 @@
       font-size: 1rem;
     }
   }
+
+  h3 {
+    opacity: 0.9;
+    font-weight: normal;
+  }
+}
+
+.site-footer {
+  padding-top: 2rem;
+  margin-top: 2rem;
+  border-top: solid 1px $hr-border-color;
+  font-size: 0.8rem;
+}
+
+.site-footer-owner {
+  display: block;
+  font-weight: bold;
+}
+
+.site-footer-credits {
+  color: $blockquote-text-color;
+}
+
+.btn {
+  background-color: rgba(255, 255, 255, 0.18);
+  font-weight: bold;
+
+  &:hover {
+    background-color: rgba(255,255,255, 0.30);
+  }
 }
