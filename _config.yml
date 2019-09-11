@@ -23,11 +23,14 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
+## Custom options
+ticket_link: https://ti.to/hheu/uk-unconference-hackcon-digital-watch-party/with/t2wxzcmaubc
+
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-hacker
-plugins:
-  - jekyll-feed
+theme: jekyll-theme-cayman
+#plugins:
+#  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
