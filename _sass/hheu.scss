@@ -40,6 +40,18 @@
   }
 }
 
+.social {
+  img {
+    opacity: 0.8;
+    transition: opacity 0.1s;
+    margin: 0 4px;
+
+    &:hover {
+      opacity: 0.95;
+    }
+  }
+}
+
 .site-footer {
   padding-top: 2rem;
   margin-top: 2rem;
