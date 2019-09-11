@@ -2,8 +2,8 @@ title: HHEU Unconference
 email: hello@hackathonhackers.eu
 author: HHEU
 description: Unconference for UK and EU hackathon organisers & Hackcon Digital watch party
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://hackathonhackers.eu" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Custom options
 ticket_link: https://tickets.hackathonhackers.eu
