@@ -12,8 +12,8 @@ source "https://rubygems.org"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 ## Custom Theme
-gem "jekyll-theme-hacker"
-
+#gem "jekyll-theme-hacker"
+gem "jekyll-theme-cayman"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
