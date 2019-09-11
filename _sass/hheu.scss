@@ -75,3 +75,28 @@
     margin-right: $imageMargin;
   }
 }
+
+.main-content h1 {
+  font-weight: bold;
+}
+
+.sponsors {
+  text-align: center;
+
+  .flagship-sponsors {
+    margin: 16px 0;
+    margin-bottom: 20px;
+  }
+
+  .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0;
+  }
+
+  .sponsor-logo {
+    display: inline;
+    margin: 0 8px;
+  }
+}

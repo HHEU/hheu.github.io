@@ -13,12 +13,49 @@ We think the UK organiser community is a little separated right now. This year, 
 so we three community builders decided to form our own meet-ups. 
 
 ## Who's running this event?
-We're growing Hackathon Hackers Europe (HHEU) to unite organisers all across the UK and continental Europe.
 
-If you want to meet the team:
+{% for person in site.data.team %}
+<div class="meet-the-team">
+    <img src="{{ person.image_path }}" class="meet-the-team-image" width="150" height="150" />
+    <div class="meet-the-team-text">
+        <h3>{{ person.name }}</h3>
+        {{ person.description | markdownify }}
+    </div>
+</div>
+{% endfor %}
 
-{% include robbie.md %}
+## Is this an MLH event?
+No. This event is independent of any event or company. Aaron, Robbie and Joe wanted to host meet-ups for UK organisers,
+and growing Hackathon Hackers Europe is a great way to do that.
 
-{% include aaron.md %}
+Behind the scenes, this event leverages [HackNotts](https://www.hacknotts.com/)' and [DurHack](https://durhack.com)'s
+resources.
 
-{% include joe.md %}
+## Why is this event free?
+This unconference is an opportunity to meet up with other UK and European hackathon organisers. We'll provide food and
+host casual discussion groups, and we believe this event should be as accessible as possible to hackathon organisers.
+
+## Do you cover travel reimbursements?
+We are planning to offer travel reimbursements to participants who are coming from outside Nottingham. We're still
+ironing out the details right now!
+
+<small>Psst – don't forget your tech society or hackathon budget might be able to cover your travel!</small> 
+
+# Sponsors
+<div class="image-container sponsors">
+We are proudly supported by:
+<div class="flagship-sponsors">
+{% assign sponsors = site.data.sponsors | where:"type","sponsor" %}
+{% for sponsor in sponsors %}
+{% include sponsor_block.html entity=sponsor %}
+{% endfor %}
+</div>
+
+<small>And powered by:</small>
+<div class="image-container partners">
+{% assign partners = site.data.sponsors | where:"type","partner" %}
+{% for partner in partners %}
+{% include sponsor_block.html entity=partner %}
+{% endfor %}
+</div>
+</div>

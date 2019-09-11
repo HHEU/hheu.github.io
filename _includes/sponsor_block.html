@@ -1,0 +1,13 @@
+{% if include.entity.type == 'sponsor' %}
+{% assign image_width = "200" %}
+{% else %}
+{% assign image_width = "125" %}
+{% endif %}
+<a href="{{ include.entity.url }}" class="sponsor-logo {{ include.entity.type }}">
+
+{% if include.entity.image_path %}
+<img src="{{ include.entity.image_path }}" width="{{ image_width }}" />
+{% else %}
+{{ include.entity.name }}
+{% endif %}
+</a>

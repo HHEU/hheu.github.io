@@ -1,0 +1,14 @@
+- name: Interhacktive
+  #image_path: assets/images/interhacktive.png # Commented out until we get an Interhacktive logo
+  url: https://twitter.com/interhacktiveco
+  type: sponsor
+
+- name: HackNotts
+  image_path: assets/images/hacknotts.png
+  url: https://hacknotts.com
+  type: partner
+
+- name: DurHack
+  image_path: assets/images/durhack.svg
+  url: https://durhack.com
+  type: partner
