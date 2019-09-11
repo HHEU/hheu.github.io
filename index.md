@@ -40,7 +40,7 @@ This unconference is an opportunity to meet up with other UK and European hackat
 host casual discussion groups, and we believe this event should be as accessible as possible to hackathon organisers.
 
 <small>Behind the scenes, this event leverages [HackNotts](https://www.hacknotts.com/)' and
-[DurHack](https://durhack.com)'s resources. This event is funded by sponsors.</small>
+[DurHack](https://durhack.com)'s resources. This event is funded separately by its sponsors.</small>
 
 ## Do you cover travel reimbursements?
 We are planning to offer travel reimbursements to participants who are coming from outside Nottingham. We're still
