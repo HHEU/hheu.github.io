@@ -4,10 +4,10 @@
     {% assign image_height = "125" %}
 {% endif %}
 
-<a href="{{ include.entity.url }}" class="sponsor-logo {{ include.entity.type }}">
+<a href="{{ include.entity.url }}" class="sponsor-logo {{ include.entity.type }}" style="height: {{ image_height}}px;">
 
     {% if include.entity.image_path %}
-        <img src="{{ include.entity.image_path }}" height="{{ image_height }}"
+        <img src="{{ include.entity.image_path }}"
          {% if include.entity.custom_styles %}
             style="{{ include.entity.custom_styles }}"
          {% endif %}

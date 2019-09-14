@@ -113,8 +113,10 @@ body {
   text-align: center;
 
   .flagship-sponsors {
-    margin: 16px 0;
-    margin-bottom: 20px;
+    margin: 16px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .image-container {
@@ -125,7 +127,33 @@ body {
   }
 
   .sponsor-logo {
-    display: inline;
-    margin: 0 8px;
+    &.sponsor {
+      margin: 0 16px;
+    }
+
+    &.partner {
+      margin: 0 8px;
+    }
+
+    img {
+      max-height: 100%;
+    }
+  }
+
+  .flagship-sponsors,
+  .image-container.partners {
+    @include small {
+      flex-direction: column;
+
+      .sponsor-logo {
+        margin: 8px 0;
+        height: auto !important; // Necessary to override inline height specified by markup
+
+        img {
+          min-height: 100px;
+          max-height: 125px;
+        }
+      }
+    }
   }
 }
