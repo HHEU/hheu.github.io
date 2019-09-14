@@ -25,15 +25,17 @@ so we three community builders decided to form our own meet-ups.
 {% endfor %}
 
 ## Is this a Major League Hacking (MLH) event?
-Technically, no. This event is split into two parts:
+Yes and no! This event comprises two parts: 
 
 ### **Morning** – Unconference
 Independent of any event or company, Aaron, Robbie and Joe wanted to host meet-ups for UK organisers. The unconference
-takes place in the morning and will consist of discussion groups and networking.
+takes place in the morning and will consist of discussion groups and networking. This unconference is kindly supported
+by our sponsors.
 
-### **Afternoon** – Hackcon Digital Watch Party
-We'll be hosting a watch party for [Hackcon Digital](https://hackcon.mlh.io/events/hackcon-digital/) in the afternoon.
-Hackcon Digital is an MLH-run online conference.
+### **Afternoon** – Official Hackcon Digital Watch Party
+We'll be hosting the official MLH watch party for [Hackcon Digital](https://hackcon.mlh.io/events/hackcon-digital/) in 
+Europe in the afternoon. Hackcon Digital is an MLH-run online conference and we're pleased to be the official watch
+party for European hackathon organisers.
 
 ## Why is this event free?
 This unconference is an opportunity to meet up with other UK and European hackathon organisers. We'll provide food and
