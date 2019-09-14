@@ -6,7 +6,7 @@ We're hosting a casual meet-up for UK and European hackathon organisers!
 
 This **unconference** is a chance to meet and chat with other hackathon organisers from across the UK. 
 
-We'll also be hosting a watch party for Hackcon Digital in the afternoon!
+We'll also be hosting the **official watch party for Hackcon Digital in Europe** in the afternoon!
 
 ## Why are we running this event?
 We think the UK organiser community is a little separated right now. This year, there's no Hackcon EU taking place,
