@@ -25,3 +25,4 @@
   type: partner
   custom_styles: >-
     min-height: 100px;
+    min-width: 100px;
