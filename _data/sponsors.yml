@@ -16,6 +16,12 @@
   url: https://education.github.com/
   type: sponsor
 
+- name: Go2Dave
+  image_path: assets/images/go2dave.png
+  image_height: 125
+  url: https://www.go2dave.co.uk/
+  type: sponsor
+
 - name: HackNotts
   image_path: assets/images/hacknotts.png
   image_height: 50
