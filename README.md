@@ -15,3 +15,5 @@ cd ./hheu.github.io
 bundle exec jekyll serve
 ```
 
+# Deployment
+Simply push to `master` on this repo, and your changes will be automatically reflected on [hackathonhackers.eu](https://hackathonhackers.eu).
