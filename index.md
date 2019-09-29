@@ -45,8 +45,18 @@ host casual discussion groups, and we believe this event should be as accessible
 [DurHack](https://durhack.com)'s resources. This event is funded separately by its own sponsors.</small>
 
 ## Do you cover travel reimbursements?
-We are planning to offer travel reimbursements to participants who are coming from outside Nottingham. We're still
-ironing out the details right now!
+Yes! We can offer travel reimbursements to all our attendees thanks to the generosity of our sponsors.
+
+### If you're coming from **England**
+We'll cover up to **£50** per person.
+
+### If you're coming from **outside England**
+We'll cover up to **£70** per person.
+
+### What kind of travel will you reimburse?
+We'll reimburse you for any **standard class** travel by public transport that gets you to/from Nottingham.
+
+If you drive, we'll pay **45p per mile**, up to the maximum amounts described above.
 
 <small>Psst – don't forget your tech society or hackathon budget might be able to cover your travel!</small> 
 
