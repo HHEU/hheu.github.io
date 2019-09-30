@@ -49,6 +49,15 @@ body {
     opacity: 0.9;
     font-weight: normal;
   }
+
+  a:not(.btn) {
+    &,
+    &:hover,
+    &:active,
+    &:visited {
+      color: #80d7ff;
+    }
+  }
 }
 
 .social {
