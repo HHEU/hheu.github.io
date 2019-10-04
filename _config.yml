@@ -6,7 +6,8 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://hackathonhackers.eu" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Custom options
-ticket_link: https://tickets.hackathonhackers.eu
+# ticket_link: https://tickets.hackathonhackers.eu
+ticket_link: //schedule
 
 # Build settings
 markdown: kramdown
