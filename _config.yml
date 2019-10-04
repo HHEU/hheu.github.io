@@ -8,6 +8,7 @@ url: "https://hackathonhackers.eu" # the base hostname & protocol for your site,
 # Custom options
 # ticket_link: https://tickets.hackathonhackers.eu
 schedule_link: /schedule
+travel_reimbursement_link: https://docs.google.com/forms/d/e/1FAIpQLSfmv5wTakvcKNttkrY3KdwhtLHfZhthgoPKX_7Z8BN4ejv5eA/viewform
 
 # Build settings
 markdown: kramdown

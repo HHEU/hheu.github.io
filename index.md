@@ -60,6 +60,10 @@ If you drive, we'll pay **45p per mile**, up to the maximum amounts described ab
 
 <small>Psst – don't forget your tech society or hackathon budget might be able to cover your travel!</small> 
 
+{% if site.travel_reimbursement_link %}
+<a href="{{ site.travel_reimbursement_link }}" target="_blank">Claim your travel reimbursement here</a>
+{% endif %}
+
 # Sponsors
 <div class="image-container sponsors">
 We are proudly supported by:
