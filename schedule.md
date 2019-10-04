@@ -2,7 +2,7 @@
 layout: default
 ---
 # Schedule
-Here's the Schedule for the Event
+Here's the schedule for the day!
 
 | Time  | Title                      | Location |
 |-------|----------------------------|----------|
@@ -18,7 +18,7 @@ Here's the Schedule for the Event
 | 13:15 | The State of the League    | LT2      |
 | **Discussions**                    |          |
 | 14:00 | Leadership                 | C1       |
-| 14:00 | Marketting                 | C4       |
+| 14:00 | Marketing                  | C4       |
 | 14:45 | Break                      | C3       |
 | **Discussions**                    |          |
 | 15:00 | Sales                      | C1       |
