@@ -166,3 +166,17 @@ body {
     }
   }
 }
+
+.travel-btn {
+  &, &:hover {
+    color: #073286;
+    border: 1px solid #073286;
+    background: #e9effb;
+  }
+
+  transition: opacity 0.15s;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
