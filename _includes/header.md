@@ -7,6 +7,10 @@
     <a href="{{ site.ticket_link }}" class="btn">Get tickets now</a>
 {% endif %}
 
+{% if site.schedule_link %}
+    <a href="{{ site.schedule_link }}" class="btn">Schedule</a>
+{% endif %}
+
 <div class="social">
 
 {% if site.data.social.facebook %}
