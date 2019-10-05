@@ -8,11 +8,14 @@ Here's the schedule for the day!
 |-------|----------------------------|----------|
 | 9:15  | Registration and Breakfast | C3       |
 | 10:00 | Opening                    | LT2      |
-| 10:20 | Session 1 Starts           | C1 & C4  |
+| 10:20 | Sponsorship (Panda)        | C1       |
+| 10:20 | On-the-Day (Aaron)         | C4       |
 | 10:50 | Break                      | C3       |
-| 11:00 | Session 2 Starts           | C1 & C4  |
+| 11:00 | University Bureaucracy (Robbie) | C1  |
+| 11:00 | Judging & Prizes (Gregor)  | C4       |
 | 11:30 | Break                      | C3       |
-| 11:40 | Session 3 Starts           | C1 & C4  |
+| 11:40 | Publicity (Panda)          | C1       |
+| 11:40 | Hackathon Communities (Robbie) | C4   |
 | 12:10 | Lunch                      | C3       |
 | 13:00 | Hackcon Digital Opening    | LT2      |
 | 13:15 | The State of the League    | LT2      |
