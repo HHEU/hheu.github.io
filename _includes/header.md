@@ -11,6 +11,10 @@
     <a href="{{ site.schedule_link }}" class="btn">Schedule</a>
 {% endif %}
 
+{% if site.travel_reimbursement_link %}
+    <a href="{{ site.travel_reimbursement_link }}" target="_blank" class="btn travel-btn">Claim your travel reimbursement here</a>
+{% endif %}
+
 <div class="social">
 
 {% if site.data.social.facebook %}
