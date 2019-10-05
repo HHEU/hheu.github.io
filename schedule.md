@@ -24,9 +24,9 @@ Here's the schedule for the day!
 | 14:00 | Marketing                  | C4       |
 | 14:45 | Break                      | C3       |
 | **Discussions**                    |          |
-| 15:00 | Sales                      | C1       |
-| 15:00 | Community Branding         | C4       |
-| 15:45 | Lightning Talks            | LT3      |
+| 15:30 | Sales                      | C1       |
+| 15:30 | Community Branding         | C4       |
+| 16:30 | Lightning Talks            | LT3      |
 ||Secret ingredients of a successful tech community|
 |       |Beyond the 24hrs            |          |
 |       |Building friendships beyond hackathons |
