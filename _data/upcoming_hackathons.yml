@@ -18,3 +18,10 @@
   university: University of Nottingham
   country: United Kingdom
   url: https://www.hacknotts.com
+
+- name: DurHack 2018
+  start_date: 2018-11-17
+  end_date: 2018-11-18
+  university: Durham University
+  country: United Kingdom
+  url: https://durhack.com
