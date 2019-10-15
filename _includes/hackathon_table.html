@@ -31,23 +31,47 @@
         fetch('/assets/upcoming-hackathons.json')
             .then(response => response.json())
             .then(json => {
-                upcomingTable = document.querySelector('.upcoming-hackathons');
-                pastTable = document.querySelector('.past-hackathons');
-                console.log(upcomingTable, pastTable, json);
-                json.hackathons.forEach(hackathon => {
+                const upcomingHackathonElements = [];
+                const pastHackathonElements = [];
+
+                // Sort hackathons chronologically, from old to new
+                const hackathons = json.hackathons.sort((a, b) => {
+                   return new Date(a.date_end) > new Date(b.date_end);
+                });
+
+                hackathons.forEach(hackathon => {
                     const row = document.createElement('tr');
                     const startDate = (new Date(hackathon.date_start)).toLocaleDateString();
                     const endDate = (new Date(hackathon.date_end)).toLocaleDateString();
                     row.innerHTML = `
-<td><strong>${startDate}</strong> to <strong>${endDate}</strong></td>
-<td><a href="${hackathon.url}" target="_blank">${hackathon.name}</a></td>
-<td>${hackathon.university}, ${hackathon.country}</td>
-`;
+                        <td><strong>${startDate}</strong> to <strong>${endDate}</strong></td>
+                        <td><a href="${hackathon.url}" target="_blank">${hackathon.name}</a></td>
+                        <td>${hackathon.university}, ${hackathon.country}</td>
+                    `;
+
                     if (new Date(hackathon.date_end) > new Date()) {
-                        upcomingTable.appendChild(row);
+                        /*
+                         * If it's an upcoming hackathon, add it to the end of the upcoming hackathons
+                         * to maintain chronological order (soonest first)
+                         */
+                        upcomingHackathonElements.push(row);
                     } else {
-                        pastTable.appendChild(row);
+                        /*
+                         * If it's a past hackathon, add it to the beginning of the past hackathons
+                         * to maintain reverse chronological order (most recent first)
+                         */
+                        pastHackathonElements.unshift(row);
                     }
+                });
+
+                const upcomingTable = document.querySelector('.upcoming-hackathons');
+                upcomingHackathonElements.forEach(row => {
+                    upcomingTable.appendChild(row);
+                });
+
+                const pastTable = document.querySelector('.past-hackathons');
+                pastHackathonElements.forEach(row => {
+                    pastTable.appendChild(row);
                 });
             });
     });
