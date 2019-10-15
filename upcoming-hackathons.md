@@ -11,9 +11,14 @@ layout: default
         <th>Location</th>
     </thead>
     <tbody>
-        {% for hackathon in site.data.upcoming_hackathons %}
+        {% assign hackathons = site.data.upcoming_hackathons | sort: "start_date" %} 
+        {% for hackathon in hackathons %}
         <tr>
-            <td>{{ hackathon.start_date }} to {{ hackathon.end_date }}</td>
+            <td>
+                <strong>{{ hackathon.start_date | date: "%-d %b %Y" }}</strong>
+                to 
+                <strong>{{ hackathon.end_date | date: "%-d %b %Y" }}</strong>
+             </td>
             <td><a href="{{ hackathon.url }}">{{ hackathon.name }}</a></td>
             <td>{{ hackathon.university }}, {{ hackathon.country }}</td>
         </tr>
