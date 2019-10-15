@@ -1,21 +1,55 @@
+# Upcoming Hackathons
 <table>
     <thead>
-    <th>Date</th>
-    <th>Hackathon</th>
-    <th>Location</th>
+        <tr>
+            <th>Date</th>
+            <th>Hackathon</th>
+            <th>Location</th>
+        </tr>
     </thead>
-    <tbody>
-    {% assign sorted_hackathons = include.hackathons | sort: "start_date" %}
-    {% for hackathon in sorted_hackathons %}
-    <tr>
-        <td>
-            <strong>{{ hackathon.start_date | date: "%-d %b %Y" }}</strong>
-            to
-            <strong>{{ hackathon.end_date | date: "%-d %b %Y" }}</strong>
-        </td>
-        <td><a href="{{ hackathon.url }}">{{ hackathon.name }}</a></td>
-        <td>{{ hackathon.university }}, {{ hackathon.country }}</td>
-    </tr>
-    {% endfor %}
+    <tbody class="upcoming-hackathons">
+
     </tbody>
 </table>
+
+# Past Hackathons
+<table>
+    <thead>
+    <tr>
+        <th>Date</th>
+        <th>Hackathon</th>
+        <th>Location</th>
+    </tr>
+    </thead>
+    <tbody class="past-hackathons">
+
+    </tbody>
+</table>
+
+<script>
+    const loadHackathons = (() => {
+        fetch('/assets/upcoming-hackathons.json')
+            .then(response => response.json())
+            .then(json => {
+                upcomingTable = document.querySelector('.upcoming-hackathons');
+                pastTable = document.querySelector('.past-hackathons');
+                console.log(upcomingTable, pastTable, json);
+                json.hackathons.forEach(hackathon => {
+                    const row = document.createElement('tr');
+                    const startDate = (new Date(hackathon.date_start)).toLocaleDateString();
+                    const endDate = (new Date(hackathon.date_end)).toLocaleDateString();
+                    row.innerHTML = `
+<td><strong>${startDate}</strong> to <strong>${endDate}</strong></td>
+<td><a href="${hackathon.url}" target="_blank">${hackathon.name}</a></td>
+<td>${hackathon.university}, ${hackathon.country}</td>
+`;
+                    if (new Date(hackathon.date_end) > new Date()) {
+                        upcomingTable.appendChild(row);
+                    } else {
+                        pastTable.appendChild(row);
+                    }
+                });
+            });
+    });
+    loadHackathons();
+</script>
