@@ -1,19 +1,24 @@
 ---
 layout: default
 ---
-# Hackathon Hackers Europe
-We're hosting a casual meet-up for UK and European hackathon organisers!
+# Hackathon Hackers Europe 
+Hackathon Hackers Europe (or HHEU for short) is an organisation targetting at helping student lead hackathons around europe. We are here to bring the hackatoh organiser and attendee community together to make hackathons easier to run and partipate in.
 
-This **unconference** is a chance to meet and chat with other hackathon organisers from across the UK. 
+HHEU put on events throughout the year to help meet our objectives like the <a href="/HHEUConf.html">HHEU conference</a>.
 
-We'll also be hosting the **official watch party for Hackcon Digital in Europe** in the afternoon!
 
-## Why are we running this event?
-We think the UK organiser community is a little separated right now. This year, there's no Hackcon EU taking place,
-so we three community builders decided to form our own meet-ups. 
 
-## Who's running this event?
+## FAQ
+{% for questions in site.data.FAQ %}
+<div class="meet-the-team">
+    <div class="meet-the-team-text">
+        <h3>{{ questions.question }}</h3>
+        {{ questions.answer | markdownify }}
+    </div>
+</div>
+{% endfor %}
 
+## The Team
 {% for person in site.data.team %}
 <div class="meet-the-team">
     <img src="{{ person.image_path }}" class="meet-the-team-image" width="150" height="150" />
@@ -23,46 +28,6 @@ so we three community builders decided to form our own meet-ups.
     </div>
 </div>
 {% endfor %}
-
-## Is this a Major League Hacking (MLH) event?
-Yes and no! This event comprises two parts: 
-
-### **Morning** – Unconference
-Independent of any event or company, Aaron, Robbie and Joe wanted to host meet-ups for UK organisers. The unconference
-takes place in the morning and will consist of discussion groups and networking. This unconference is kindly supported
-by our sponsors.
-
-### **Afternoon** – Official Hackcon Digital Watch Party
-We'll be hosting the official MLH watch party for [Hackcon Digital](https://hackcon.mlh.io/events/hackcon-digital/) in 
-Europe in the afternoon. Hackcon Digital is an MLH-run online conference and we're pleased to be the official watch
-party for European hackathon organisers.
-
-## Why is this event free?
-This unconference is an opportunity to meet up with other UK and European hackathon organisers. We'll provide food and
-host casual discussion groups, and we believe this event should be as accessible as possible to hackathon organisers.
-
-<small>Behind the scenes, this event leverages [HackNotts](https://www.hacknotts.com/)' and
-[DurHack](https://durhack.com)'s resources. This event is funded separately by its own sponsors.</small>
-
-## Do you cover travel reimbursements?
-Yes! We can offer travel reimbursements to all our attendees thanks to the generosity of our sponsors.
-
-### If you're coming from **England**
-We'll cover up to **£50** per person.
-
-### If you're coming from **outside England**
-We'll cover up to **£70** per person.
-
-### What kind of travel will you reimburse?
-We'll reimburse you for any **standard class** travel by public transport that gets you to/from Nottingham.
-
-If you drive, we'll pay **45p per mile**, up to the maximum amounts described above.
-
-<small>Psst – don't forget your tech society or hackathon budget might be able to cover your travel!</small> 
-
-{% if site.travel_reimbursement_link %}
-<a href="{{ site.travel_reimbursement_link }}" target="_blank" class="btn travel-btn">Claim your travel reimbursement here</a>
-{% endif %}
 
 # Sponsors
 <div class="image-container sponsors">

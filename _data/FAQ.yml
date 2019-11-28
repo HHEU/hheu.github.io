@@ -1,0 +1,16 @@
+- question: Is HHEU affiliated with Major League Hacking (MLH)?
+  answer: >-
+    Yes and No! we are a completely seperate entiry but currently use MLH resources to allow our events to run.
+
+- question: Is it free?
+  answer: >-
+    HHEU tries to keep all events open to everyone by making our events free and offer reasonable travel reimbursement where possible
+    <small>Our events are funded from sponsors and uses resources from both [HackNotts](https://www.hacknotts.com/)' and
+    [DurHack](https://durhack.com)</small>
+- question: Where can I find out more information
+  answer: >-
+    Information around running and attending hackathons can be found at our open source wiki [Hack.athon.uk](https://hack.athon.uk/). For any further or personalised information from HHEU you can contact us using [hello@hackathonhackers.eu](mailto:hello@hackathonhackers.eu)!
+
+- question: I'm running a hackathon and want to invole HHEU
+  answer: >-
+    Great! First of all you can contact us using [hello@hackathonhackers.eu](mailto:hello@hackathonhackers.eu) and express your interest and see if we can help you at all. Feel free to also add your hackathon to the [Wiki](https://hack.athon.uk/) by submitting a pull request on our [Repo](https://github.com/HHEU/wiki).
