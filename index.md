@@ -2,9 +2,9 @@
 layout: default
 ---
 # Hackathon Hackers Europe 
-Hackathon Hackers Europe (or HHEU for short) is an organisation targetting at helping student lead hackathons around europe. We are here to bring the hackatoh organiser and attendee community together to make hackathons easier to run and partipate in.
+Hackathon Hackers Europe (or HHEU for short) is an organisation targeted at helping student lead hackathons around europe. We are here to bring the hackathon organiser and attendee community together to make hackathons easier to run and partipate in.
 
-HHEU put on events throughout the year to help meet our objectives like the <a href="/HHEUConf.html">HHEU conference</a>.
+HHEU put on events throughout the year to help meet our objectives like the <a href="/hheuConf">HHEU conference</a>.
 
 
 
