@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+    <meta charset="UTF-8">
+
+    {% seo %}
+    {% include social_media_meta.html %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+    {% include favicon.html %}
+
+</head>
+<body>
+<section class="page-header" >
+        <h1><a href="/">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+        <h3>Saturday 5th October 2019 | 09:15 – 17:00</h3>
+        <h3>The Exchange, Jubilee Campus, University of Nottingham, Wollaton Road Nottingham, NG8 1BB | <a href="https://www.nottingham.ac.uk/sharedresources/documents/mapjubileecampus.pdf" target="_blank">Map</a></h3>
+        
+        {% if site.ticket_link %}
+            <a href="{{ site.ticket_link }}" class="btn">Get tickets now</a>
+        {% endif %}
+        
+        {% if site.schedule_link %}
+            <a href="{{ site.schedule_link }}" class="btn">Schedule</a>
+        {% endif %}
+        
+        {% if site.travel_reimbursement_link %}
+            <a href="{{ site.travel_reimbursement_link }}" target="_blank" class="btn travel-btn">Claim your travel reimbursement here</a>
+        {% endif %}
+        
+        <div class="social">
+        
+        {% if site.data.social.facebook %}
+        <a href="{{ site.data.social.facebook }}">
+        <img src="assets/images/facebook_white.png" width="24" height="24" />
+        </a>
+        {% endif %}
+        
+        {% if site.data.social.twitter %}
+        <a href="{{ site.data.social.twitter }}">
+        <img src="assets/images/twitter_white.svg" width="24" height="24" />
+        </a>
+        {% endif %}
+        
+        </div></section>
+
+<section class="main-content">
+    {{ content }}
+
+
+    <footer class="site-footer">
+        {% include footer.md %}
+    </footer>
+</section>
+
+{% if site.google_analytics %}
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', '{{ site.google_analytics }}', 'auto');
+    ga('send', 'pageview');
+</script>
+{% endif %}
+</body>
+</html>
