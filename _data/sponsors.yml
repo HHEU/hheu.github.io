@@ -5,7 +5,7 @@
   type: sponsor
 
 - name: Major League Hacking
-  image_path: assets/images/mlh.svg
+  image_path: assets/images/mlh.png
   image_height: 125
   url: https://mlh.io/
   type: sponsor
