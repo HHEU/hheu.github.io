@@ -135,7 +135,7 @@ body {
     margin: 16px 0;
   }
 
-  .sponsor-logo {
+  .sponsor-image {
     &.sponsor {
       margin: 0 16px;
     }
@@ -154,7 +154,7 @@ body {
     @include small {
       flex-direction: column;
 
-      .sponsor-logo {
+      .sponsor-image {
         margin: 8px 0;
         height: auto !important; // Necessary to override inline height specified by markup
 
